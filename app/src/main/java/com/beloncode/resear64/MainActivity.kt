@@ -1,9 +1,8 @@
-package com.beloncode.disas
+package com.beloncode.resear64
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
-import com.beloncode.disas.databinding.ActivityMainBinding
+import com.beloncode.resear64.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,12 +18,12 @@ class MainActivity : AppCompatActivity() {
         binding.sampleText.text = stringFromJNI()
     }
 
-    external fun stringFromJNI(): String
+    private external fun stringFromJNI(): String
 
     companion object {
-        // Used to load the 'disas' library on application startup.
+        // Used to load the 'seacore' library on application startup
         init {
-            System.loadLibrary("disas")
+            System.loadLibrary("seacore")
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.beloncode.disas
+package com.beloncode.resear64
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

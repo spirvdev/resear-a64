@@ -1,4 +1,4 @@
-package com.beloncode.disas
+package com.beloncode.resear64
 
 import org.junit.Test
 
